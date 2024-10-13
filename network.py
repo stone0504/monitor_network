@@ -11,7 +11,7 @@ except ImportError:
 class ServerMonitor:
     def __init__(self):
         # Server settings
-        self.SERVER_IP = "XXXXXX" #target
+        self.SERVER_IP = "XXXXXX" #target_ip
         self.GOOGLE_DNS = "8.8.8.8"
         self.INTERVAL = 10
         self.MAX_RETRIES = 5
